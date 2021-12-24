@@ -25,18 +25,18 @@
             "version": "1.0.0"
         },
         "crossNavigation": {
-          "inbounds": {
-            "Risks-display": {
-              "signature": {
-                "parameters": {},
-                "additionalParameters": "allowed"
-              },
-              "semanticObject": "Risks",
-              "action": "display"
+            "inbounds": {
+                "Risks-display": {
+                    "signature": {
+                        "parameters": {},
+                        "additionalParameters": "allowed"
+                    },
+                    "semanticObject": "Risks",
+                    "action": "display"
                 }
             }
         }
-    },  
+    },
     "sap.ui": {
         "technology": "UI5",
         "icons": {
@@ -59,7 +59,7 @@
             "css": []
         },
         "dependencies": {
-            "minUI5Version": "1.97.0",
+            "minUI5Version": "1.95.0",
             "libs": {
                 "sap.ui.core": {},
                 "sap.fe.templates": {}
@@ -149,7 +149,7 @@
         "archeType": "transactional"
     },
     "sap.cloud": {
-      "public": true,
-      "service": "cpapp.service"
+        "public": true,
+        "service": "cpapp.service"
     }
 }

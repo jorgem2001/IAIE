@@ -1,9 +1,8 @@
 # CAP cpapp
 _out
-*.db
+.db
 connection.properties
-default-*.json
-.cdsrc-private.json
+default-.json
 gen/
 node_modules/
 target/
@@ -23,8 +22,12 @@ mta_archives/
 *.log
 
 *.iml
-*.flattened-pom.xml
+.flattened-pom.xml
 
 # IDEs
 # .vscode
 # .idea
+
+dist/
+resources/
+app//package-lock.json
